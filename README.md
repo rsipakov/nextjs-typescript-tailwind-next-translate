@@ -5,9 +5,19 @@
 
 Based on tutorial by https://www.youtube.com/watch?v=Rbi52ZYtVKM
 
+Internationalizing a markdown based blog using tutorial by Patrick M. https://www.youtube.com/watch?v=RiC5YU5x1NA&t=3s
+
+
 Next translate: https://github.com/vinissimus/next-translate
 
 ---
 
 ### Tod Do
-- [ ] To apply for blog pages. Blog pages are rendered only for the main (default locale) language and are not available if you switch to another language.
+- [X] To apply for blog pages. Blog pages are rendered only for the main (default locale) language and are not available if you switch to another language.
+
+Resolved: 
+- Listing of posts depending on the availability of target language. 
+- Translation of context. 
+- Date translation.
+---
+- [ ] Add a filter category with the implementation of their translation.
