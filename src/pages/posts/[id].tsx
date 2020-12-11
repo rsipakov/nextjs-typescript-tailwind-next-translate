@@ -1,19 +1,23 @@
+
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 import Date from '../../components/date';
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export const Post = ({
-    postData
-}: {
+                         postData,
+                     }: {
     postData: {
         title: string;
         date: string;
         contentHtml: string;
     };
 }): JSX.Element => {
+    const { locale } = useRouter();
+
     return (
         <Layout>
             <Head>
@@ -22,7 +26,7 @@ export const Post = ({
             <article className="py-10 prose lg:prose-xl">
                 <h2>{postData.title}</h2>
                 <div>
-                    <Date dateString={postData.date} />
+                    <Date dateString={postData.date} locale={locale} />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
@@ -32,19 +36,19 @@ export const Post = ({
 
 export default Post;
 
-export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = getAllPostIds();
+export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
+    const paths = getAllPostIds(locales);
     return {
         paths,
-        fallback: false
+        fallback: false,
     };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
-    const postData = await getPostData(params.id as string);
+export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
+    const postData = await getPostData(params.id as string, locale);
     return {
         props: {
-            postData
-        }
+            postData,
+        },
     };
 };
