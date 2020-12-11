@@ -67,7 +67,7 @@ export const Home = ({
                             </Link>
                             <br />
                             <small className={utilStyles.lightText}>
-                                <Date dateString={date} />
+                                <Date dateString={date} locale={locale} />
                             </small>
                         </li>
                     ))}
@@ -79,11 +79,11 @@ export const Home = ({
 
 export default Home;
 
-export const getStaticProps: GetStaticProps = async () => {
-    const allPostsData = getSortedPostsData();
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+    const allPostsData = getSortedPostsData(locale);
     return {
         props: {
-            allPostsData
-        }
+            allPostsData,
+        },
     };
 };
