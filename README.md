@@ -7,7 +7,9 @@ Used the tutorial: https://www.youtube.com/watch?v=Rbi52ZYtVKM
 
 Internationalizing a markdown based blog using tutorial by Patrick M. https://www.youtube.com/watch?v=RiC5YU5x1NA&t=3s
 
-Next translate: https://github.com/vinissimus/next-translate
+Next Translate: https://github.com/vinissimus/next-translate
+
+Two options of fata internalization.
 
 ---
 
