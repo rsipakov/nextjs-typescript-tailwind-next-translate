@@ -9,7 +9,7 @@ Internationalizing a markdown based blog using tutorial by Patrick M. https://ww
 
 Next Translate: https://github.com/vinissimus/next-translate
 
-Two options of fata internalization.
+Two options of data internalization.
 
 ---
 
