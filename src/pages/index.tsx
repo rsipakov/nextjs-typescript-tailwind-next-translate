@@ -83,7 +83,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     const allPostsData = getSortedPostsData(locale);
     return {
         props: {
-            allPostsData,
-        },
+            allPostsData
+        }
     };
 };

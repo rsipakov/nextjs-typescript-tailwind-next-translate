@@ -1,4 +1,3 @@
-
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -8,8 +7,8 @@ import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export const Post = ({
-                         postData,
-                     }: {
+    postData
+}: {
     postData: {
         title: string;
         date: string;
@@ -40,7 +39,7 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
     const paths = getAllPostIds(locales);
     return {
         paths,
-        fallback: false,
+        fallback: false
     };
 };
 
@@ -48,7 +47,7 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
     const postData = await getPostData(params.id as string, locale);
     return {
         props: {
-            postData,
-        },
+            postData
+        }
     };
 };

@@ -3,9 +3,9 @@ import enUS from 'date-fns/locale/en-US';
 import ru from 'date-fns/locale/ru';
 
 export const Date = ({
-                         dateString,
-                         locale,
-                     }: {
+    dateString,
+    locale
+}: {
     dateString: string;
     locale: string;
 }): JSX.Element => {

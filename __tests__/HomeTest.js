@@ -11,6 +11,7 @@ afterEach(cleanup);
 describe('HomePage', () => {
     // eslint-disable-next-line no-undef
     test('renders Home component', () => {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         function render({ locale = 'en', locales, defaultLocale } = {}) {
             return <Home allPostsData={[]} />;
         }
