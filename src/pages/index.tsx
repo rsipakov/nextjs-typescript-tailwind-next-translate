@@ -16,6 +16,7 @@ export const Home = ({
         date: string;
         title: string;
         id: string;
+        description: string;
     }[];
 }): JSX.Element => {
     const { t } = useTranslation();
@@ -67,7 +68,7 @@ export const Home = ({
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>{t('common:blog')}</h2>
                 <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, date, title }) => (
+                    {allPostsData.map(({ id, date, title, description }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <Link href={`/posts/${id}`}>
                                 <a>{title}</a>
@@ -86,6 +87,7 @@ export const Home = ({
                                 </time>
                             </small>
                             */}
+                            <p className="prose-sm">{description}</p>
                         </li>
                     ))}
                 </ul>
