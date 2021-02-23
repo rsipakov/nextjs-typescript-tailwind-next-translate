@@ -26,7 +26,8 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:react/recommended',
         'plugin:jsx-a11y/recommended',
-        'prettier/@typescript-eslint',
+        // Disabled https://github.com/prettier/eslint-config-prettier/pull/175
+        // 'prettier/@typescript-eslint',
         'plugin:prettier/recommended',
         'plugin:react-hooks/recommended'
     ],
