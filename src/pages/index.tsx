@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useTranslation from 'next-translate/useTranslation';
 
-import Date from '../components/date';
+import Date from '../components/date'; // comment it if you will use other option for date localization. Also, use the same way in [id].tsx
 import Layout, { siteTitle } from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
@@ -19,9 +19,16 @@ export const Home = ({
     }[];
 }): JSX.Element => {
     const { t } = useTranslation();
-
     const router = useRouter();
     const { locale, locales, defaultLocale } = router;
+
+    /* Date localization other option
+    const dateOptions = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    };
+    */
 
     return (
         <Layout home>
@@ -66,9 +73,19 @@ export const Home = ({
                                 <a>{title}</a>
                             </Link>
                             <br />
+                            {/*
+                            // Comment below if you will use other option data localization
+                            */}
                             <small className={utilStyles.lightText}>
                                 <Date dateString={date} locale={locale} />
                             </small>
+                            {/* uncomment it for other option data localization
+                            <small>
+                                <time>
+                                    {new Date(date).toLocaleDateString(locale, dateOptions)}
+                                </time>
+                            </small>
+                            */}
                         </li>
                     ))}
                 </ul>
