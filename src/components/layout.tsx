@@ -7,7 +7,7 @@ import Footer from './footer';
 import Nav from './nav';
 
 const name = '[Your Name]';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Boilerplate based on NextJS';
 
 export const Layout = ({
     children,
@@ -22,7 +22,7 @@ export const Layout = ({
                 <title>{siteTitle}</title>
                 <meta
                     name="description"
-                    content="Learn how to build a personal website using Next.js"
+                    content="Boilerplate based on NextJS"
                 />
                 <meta
                     property="og:image"

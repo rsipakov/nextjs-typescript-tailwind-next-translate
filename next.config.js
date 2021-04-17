@@ -10,5 +10,6 @@ module.exports = {
     ...nextTranslate(),
     sassOptions: {
         includePaths: [path.join(__dirname, './src/styles')]
-    }
+    },
+    target: 'serverless'
 };
