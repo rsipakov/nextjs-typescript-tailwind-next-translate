@@ -6,7 +6,7 @@
 
 ---
 
-Boilerplate based on NextJS, Typescript, TailwindCSS, next-translate with internationalizing a markdown blog.
+Boilerplate based on [NextJS](https://github.com/vercel/next.js), [TypeScript[(https://github.com/microsoft/TypeScript), [TailwindCSS}(https://github.com/tailwindlabs/tailwindcss), [Next Translate](https://github.com/vinissimus/next-translate) with internationalizing a markdown blog.
 ---
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/rsipakov/nextjs-typescript-tailwind-next-translate)
@@ -18,10 +18,8 @@ Boilerplate based on NextJS, Typescript, TailwindCSS, next-translate with intern
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0154b72c-78e7-413a-83eb-9b65730edd50/deploy-status)](https://app.netlify.com/sites/nextjs-typescript-tailwind-next-translate/deploys)
 
 ---
-Used the tutorial: https://www.youtube.com/watch?v=Rbi52ZYtVKM
+Used the [tutorial](https://www.youtube.com/watch?v=Rbi52ZYtVKM)
 
-Internationalizing a markdown based blog using tutorial by Patrick M. https://www.youtube.com/watch?v=RiC5YU5x1NA&t=3s
-
-Next Translate: https://github.com/vinissimus/next-translate
+Internationalizing a markdown based blog using [tutorial by Patrick M.](https://www.youtube.com/watch?v=RiC5YU5x1NA&t=3s)
 
 Two options for data internalization.
