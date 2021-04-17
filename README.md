@@ -6,7 +6,7 @@
 
 ---
 
-Boilerplate based on [NextJS](https://github.com/vercel/next.js), [TypeScript[(https://github.com/microsoft/TypeScript), [TailwindCSS}(https://github.com/tailwindlabs/tailwindcss), [Next Translate](https://github.com/vinissimus/next-translate) with internationalizing a markdown blog.
+Boilerplate based on [NextJS](https://github.com/vercel/next.js), [TypeScript](https://github.com/microsoft/TypeScript), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), [Next Translate](https://github.com/vinissimus/next-translate) with internationalizing a markdown blog.
 ---
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/rsipakov/nextjs-typescript-tailwind-next-translate)
