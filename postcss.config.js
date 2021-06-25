@@ -16,6 +16,7 @@ module.exports = {
             ? {
                   '@fullhuman/postcss-purgecss': {
                       content: [
+                          './src/layouts/**/*.{js,ts,jsx,tsx}',
                           './src/pages/**/*.{js,jsx,ts,tsx}',
                           './src/components/**/*.{js,jsx,ts,tsx}'
                       ],

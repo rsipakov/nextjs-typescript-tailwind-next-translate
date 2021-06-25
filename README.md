@@ -13,7 +13,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/rsipakov/nextjs-typescript-tailwind-next-translate)
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/rsipakov/nextjs-typescript-tailwind-next-translate)
 
-[Demo deployed on Vercel](nextjs-typescript-tailwind-next-translate.vercel.app)
+[Demo deployed on Vercel](https://https://nextjs-typescript-tailwind-next-translate.vercel.app/)
 
 [Demo deployed on Netlify](https://nextjs-typescript-tailwind-next-translate.netlify.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0154b72c-78e7-413a-83eb-9b65730edd50/deploy-status)](https://app.netlify.com/sites/nextjs-typescript-tailwind-next-translate/deploys)
