@@ -3,10 +3,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/rsipakov/nextjs-typescript-tailwind-next-translate)
 [![DOI](https://zenodo.org/badge/318645312.svg)](https://zenodo.org/badge/latestdoi/318645312)
 ![GitHub](https://img.shields.io/github/license/rsipakov/nextjs-typescript-tailwind-next-translate)
-
+[![Powered by Vercel](https://missioniz.s3.amazonaws.com/logo-vendors/powered-by-vercel.svg)](https://vercel.com?utm_source=jamstack-os&utm_campaign=oss)
 ---
 
-Boilerplate based on [NextJS](https://github.com/vercel/next.js), [TypeScript](https://github.com/microsoft/TypeScript), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), [next-translate](https://github.com/vinissimus/next-translate) with internationalizing a markdown blog.
+## Boilerplate based on [NextJS](https://github.com/vercel/next.js), [TypeScript](https://github.com/microsoft/TypeScript), [TailwindCSS](https://github.com/tailwindlabs/tailwindcss), [next-translate](https://github.com/vinissimus/next-translate) with internationalizing a markdown blog.
+
 ---
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/rsipakov/nextjs-typescript-tailwind-next-translate)
@@ -18,8 +19,5 @@ Boilerplate based on [NextJS](https://github.com/vercel/next.js), [TypeScript](h
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0154b72c-78e7-413a-83eb-9b65730edd50/deploy-status)](https://app.netlify.com/sites/nextjs-typescript-tailwind-next-translate/deploys)
 
 ---
-Used the [tutorial](https://www.youtube.com/watch?v=Rbi52ZYtVKM)
 
 Internationalizing a markdown based blog using [tutorial by Patrick M.](https://www.youtube.com/watch?v=RiC5YU5x1NA&t=3s)
-
-Two options for data internalization.

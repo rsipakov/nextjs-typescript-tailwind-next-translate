@@ -1,5 +1,5 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'EN = Two Forms of Pre-rendering'
 date: '2020-01-01'
 description: 'This is a description'
 ---

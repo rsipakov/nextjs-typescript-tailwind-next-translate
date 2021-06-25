@@ -1,4 +1,4 @@
-import Layout from '../components/layout';
+import Layout from '../layouts/layout';
 
 export const Custom404 = (): JSX.Element => {
     return (

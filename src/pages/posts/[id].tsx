@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import Date from '../../components/date';
-import Layout from '../../components/layout';
+import Layout from '../../layouts/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 
 export const Post = ({

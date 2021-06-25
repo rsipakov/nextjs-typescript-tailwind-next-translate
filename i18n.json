@@ -2,7 +2,6 @@
   "locales": ["en-US", "ru"],
   "defaultLocale": "en-US",
   "pages": {
-    "*": ["common"],
-    "/tailwindcss": ["tailwindcss"]
+    "*": ["common"]
   }
 }

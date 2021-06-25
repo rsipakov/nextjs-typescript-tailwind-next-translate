@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { Footer } from '../components/footer';
+import Nav from '../components/nav';
 import styles from '../styles/layout.module.css';
 import utilStyles from '../styles/utils.module.css';
-import Footer from './footer';
-import Nav from './nav';
 
 const name = '[Your Name]';
 export const siteTitle = 'Boilerplate based on NextJS';
@@ -20,10 +20,7 @@ export const Layout = ({
         <div className={styles.container}>
             <Head>
                 <title>{siteTitle}</title>
-                <meta
-                    name="description"
-                    content="Boilerplate based on NextJS"
-                />
+                <meta name="description" content="Boilerplate based on NextJS" />
                 <meta
                     property="og:image"
                     content={`https://og-image.now.sh/${encodeURI(
