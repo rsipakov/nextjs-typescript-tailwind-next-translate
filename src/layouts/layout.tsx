@@ -20,7 +20,7 @@ export const Layout = ({
         <div className={styles.container}>
             <Head>
                 <title>{siteTitle}</title>
-                <meta name="description" content="Boilerplate based on NextJS" />
+                <meta name="description" content="Template based on NextJS" />
                 <meta
                     property="og:image"
                     content={`https://og-image.now.sh/${encodeURI(
